@@ -2,3 +2,72 @@
   text-align: center;
   color: #fff;
 }
+
+.search-box {
+  display: flex;
+  gap: 2px;
+
+
+  .form-control::placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+  }
+
+  .product-search {
+    width: 90%;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .product-category {
+    text-align: center;
+    width: calc(10% - 2px);
+    cursor: pointer;
+  }
+}
+
+.product-item {
+  background-color: rgb(19, 23, 42);
+  border: 1px solid rgb(35, 39, 61);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  color: #fff;
+
+  img {
+    width: 100%;
+    height: auto;
+    // border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+  .product-name {}
+
+  .product-description {}
+
+  .product-warranty {}
+
+  .product-price {
+    del {
+      color: red;
+      font: 120% sans-serif;
+    }
+  }
+
+  .product-rating {
+    color: yellow;
+    i {
+      margin-right: 2px;
+    }
+  }
+
+  .product-action {
+    .btn {
+      margin-right: 10px;
+    }
+  }
+}
