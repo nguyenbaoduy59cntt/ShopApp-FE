@@ -1,0 +1,30 @@
+header {
+  .container {
+    .navbar {
+      .navbar-brand {
+        color: aqua;
+
+        span {
+          color: aquamarine;
+        }
+      }
+
+      .navbar-collapse {
+        display: flex;
+        justify-content: space-between;
+        .navbar-nav {
+          .nav-link {
+            color: #e9e9ec;
+            border-radius: 18px;
+            padding: 6px 12px;
+
+            &.active {
+              background-color: rgb(127, 68, 255) !important;
+              color: #fff !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+<app-header></app-header>
+<div class="container">
+  <div class="intro-section">
+    <h1>Thông tin đơn hàng</h1>
+    <p>Trang này hiển thị chi tiết đơn hàng của bạn</p>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="order-owner">
+        <h2>Thông tin người nhận</h2>
+        <form>
+          <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Họ tên:</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nhập họ tên vào đây ...">
+          </div>
+          <div class="form-group mb-3">
+            <label for="exampleInputEmail1">Email:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nhập email vào đây ...">
+          </div>
+          <div class="form-group mb-3">
+            <label for="exampleInputPassword1">Số điện thoại:</label>
+            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Nhập số điện thoại vào đây ...">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="product-order">
+        <h2>Danh sách mặt hàng</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Tên sản phẩm</th>
+              <th scope="col">Số lượng</th>
+              <th scope="col">Đơn giá</th>
+              <th scope="col">Tổng tiền</th>
+              <th scope="col">Hành động</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Product 1</td>
+              <td>1</td>
+              <td>$1200</td>
+              <td>$1200</td>
+              <td><i class="fa-solid fa-trash"></i></td>
+            </tr>
+            <tr>
+              <th scope="row">1</th>
+              <td>Product 2</td>
+              <td>1</td>
+              <td>$1200</td>
+              <td>$1200</td>
+              <td><i class="fa-solid fa-trash"></i></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <div class="coupon">
+          <h4>Mã giảm giá:</h4>
+          <input placeholder="Nhập mã giảm giá vào đây ..." title="Ma giam gia" type="text">
+          <button class="btn btn-info">Áp dụng</button>
+        </div>
+        <button class="btn btn-success mt-3 btn-submit">Đặt hàng</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,61 @@
+.container {
+  .intro-section {
+    text-align: center;
+    color: #fff;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    overflow: hidden;
+  }
+
+  .thumbnail-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+
+    .thumbnail-item {
+      opacity: 33.3%;
+
+      &.active {
+        opacity: 100%;
+      }
+    }
+  }
+
+  .product-details {
+    color: #fff;
+
+    .product-quantity {
+      .border-wrapper {
+        input {
+          outline: none;
+          width: 50px;
+          text-align: center;
+          margin: 0 5px;
+        }
+
+        button {
+          border-radius: 2px;
+          border: none;
+          background: transparent;
+
+          i {
+            color: #fff;
+            scale: 0.7;
+          }
+        }
+      }
+
+    }
+
+    .product-action {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+  }
+}
